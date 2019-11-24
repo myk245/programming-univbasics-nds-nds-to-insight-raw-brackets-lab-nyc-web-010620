@@ -11,7 +11,12 @@ def directors_totals(nds)
   while row_index < directors_database.length do
     column_index = 0
     while column_index < directors_database[row_index].length do
-      
+      inner_len = directors_database[row_index][column_index].length
+      inner_index = 0
+      while inner_index < inner_len do
+        directors_totals += directors_database[row_index][column_index][inner_index]
+[:worldwide_gross]
+
     end
 
   # Remember, it's always OK to pretty print what you get *in* to make sure
