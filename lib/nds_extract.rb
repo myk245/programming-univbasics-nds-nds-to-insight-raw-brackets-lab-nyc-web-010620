@@ -6,7 +6,7 @@ require 'directors_database'
 pp directors_database
 
 def directors_totals(nds)
-  directors_totals(directors_database) = 0
+  directors_totals(directors_database) = {}
   row_index = 0
   while row_index < directors_database.length do
     column_index = 0
@@ -21,7 +21,7 @@ def directors_totals(nds)
     column_index += 1
   end
   row_index += 1
-end 
+end
 
 
   # Remember, it's always OK to pretty print what you get *in* to make sure
