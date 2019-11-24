@@ -6,6 +6,14 @@ require 'directors_database'
 pp directors_database
 
 def directors_totals(nds)
+  directors_totals(directors_database) = 0
+  row_index = 0
+  while row_index < directors_database.length do
+    column_index = 0
+    while column_index < directors_database[row_index].length do
+      
+    end
+
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
